@@ -1,0 +1,17 @@
+-- CREATE TABLE Products (
+-- id INT(6)  AUTO_INCREMENT PRIMARY KEY,
+-- title VARCHAR(50),
+-- sasia VARCHAR(50),
+-- price VARCHAR(50)
+-- );
+
+
+CREATE TABLE Users (
+id INT(6)  AUTO_INCREMENT PRIMARY KEY,
+emri VARCHAR(50) NOT NULL,
+mbiemri VARCHAR(50) NOT NULL,
+email VARCHAR(100) NOT NULL UNIQUE,
+password VARCHAR(255) NOT NULL
+);
+
+
